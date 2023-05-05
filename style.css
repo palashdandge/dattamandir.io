@@ -170,11 +170,7 @@ ul li a:hover{
 
 
 
-/* Make responsive */
-@media only screen and (max-width: 768px) {
-	.box-homepage-welcome {
-		padding: 15% 10% 20% 10%; /* adjust the padding */
-	}
+
 
 /*make reposive*/
 
