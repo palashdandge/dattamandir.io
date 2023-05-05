@@ -7634,7 +7634,9 @@ html.rd-navbar-fixed-linked .page {
 
 
 
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  /* Styles for mobile devices */
+}
 
 
 
@@ -8124,7 +8126,7 @@ html { overflow-x: hidden; }
 
 
 
-@media (min-width: 992px) {
+@media screen and (max-width: 992px)
 	
 /*# sourceMappingURL=style.css.map */
 /*New Styles*/
@@ -8608,7 +8610,7 @@ html { overflow-x: hidden; }
 
 }
 
-@media (min-width: 1200px) {
+ @media screen and (max-width: 1200px)
 	/*# sourceMappingURL=style.css.map */
 /*New Styles*/
 .box-homepage-welcome {
