@@ -7,12 +7,21 @@ body {
 .sidebarrs {
   float: left;
   margin-left: 15%;
+  color: orangered;
+  border-style: solid;
+  padding: 20px;
+	  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      font-size: 25px;
 }
 
 .sidebars {
   float: right;
   margin-right: 15%;
   color: darkorange;
+  font-size: 25px;
+  border-color: #000000;
+  padding: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 nav {
@@ -83,12 +92,22 @@ img {
     float: none;
     text-align: center;
     margin: 10px auto;
+     color: orangered;
+  border-style: solid;
+  padding: 20px;
+	  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      font-size: 25px;
   }
   
   .sidebars {
     float: none;
     text-align: center;
     margin: 10px auto;
+    padding: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-size: 25px;
+	color: orangered;
+	border-color: #000000;
   }
   
   nav ul {
