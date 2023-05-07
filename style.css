@@ -103,11 +103,7 @@ img {
     float: none;
     text-align: center;
     margin: 10px auto;
-    padding: 20px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    font-size: 25px;
-	color: orangered;
-	border-color: #000000;
+   
   }
   
   nav ul {
@@ -122,6 +118,52 @@ img {
     max-width: 90%;
     margin: 50px auto;
   }
+	
+	.box-homepage-welcome {
+	position: relative;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4% 100px 10% 100px;
+	background: #ffffff;
+	z-index: 1;
+}
+
+.box-homepage-welcome::before {
+	position: absolute;
+	content: '';
+	top: 12px;
+	right: 12px;
+	bottom: 12px;
+	left: 12px;
+	border: 1px solid #e1e1e1;
+	background: transparent;
+	will-change: transform;
+	pointer-events: none;
+	transition: inherit;
+	z-index: -1;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-homepage-welcome-content {
+	margin: 0 auto;
+}
+
+ .box-homepage-welcome-title {
+	font-weight: 400;
+	letter-spacing: .02em;
+	text-align:center;
+} */
+
+.box-homepage-welcome-list {
+	letter-spacing: .025em;
+}
+
+
+.box-homepage-welcome-list a, .box-homepage-welcome-list a:focus, .box-homepage-welcome-list a:active {
+	color: inherit;
+}
+
 }
 
 /* Media queries for desktop devices */
