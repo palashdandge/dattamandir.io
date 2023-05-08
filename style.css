@@ -464,3 +464,496 @@ footer {
     justify-content: center; /* center the items on smaller screens */
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop */
+.box-homepage-welcome {
+	position: relative;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4% 50px;
+	background: #ffffff;
+	z-index: 1;
+}
+
+.box-homepage-welcome::before {
+	position: absolute;
+	content: '';
+	top: 12px;
+	right: 12px;
+	bottom: 12px;
+	left: 12px;
+	border: 1px solid #e1e1e1;
+	background: transparent;
+	will-change: transform;
+	pointer-events: none;
+	transition: inherit;
+	z-index: -1;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-homepage-welcome-content {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.box-homepage-welcome-title {
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+
+.box-homepage-welcome-list {
+	letter-spacing: 0.025em;
+}
+
+.box-homepage-welcome-list a,
+.box-homepage-welcome-list a:focus,
+.box-homepage-welcome-list a:active {
+	color: inherit;
+}
+
+@media (min-width: 992px) {
+	.box-homepage-welcome {
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+.heder{
+margin: 50px;
+padding: 50px;
+box-sizing: border-box;
+font-family: sans-serif;
+box-shadow: aqua;
+text-align: center;
+}
+	nav {
+	position: relative;
+	width: 100%;
+	height: 80px;
+	background-color: #000000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 7%;
+}
+
+.center {
+	font-size: 30px;
+	color: white;
+	user-select: none;
+	margin: 0;
+	width: auto;
+}
+
+ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul li a {
+	font-size: 19px;
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+	transition: color .5s;
+}
+
+ul li a:hover {
+	color: crimson;
+}
+
+.search {
+	width: 250px;
+	height: 35px;
+	position: relative;
+	margin-right: 30px;
+}
+
+.search input {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: crimson;
+	padding-left: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+.search span {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background-color: lightblue;
+	border-radius: 0 5px 5px 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	width: 100%;
+	text-align: center;
+}
+
+.content h1 {
+	margin-bottom: 15px;
+	color: green;
+}
+
+.content p {
+	font-size: 18px;
+	color: grey;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For screens larger than 768px */
+@media only screen and (min-width: 768px) {
+	.slideshow-container {
+		max-width: 800px;
+	}
+	.text {
+		font-size: 18px;
+		padding: 10px 20px;
+		bottom: 15px;
+	}
+	.numbertext {
+		font-size: 14px;
+		padding: 6px 10px;
+	}
+	.dot {
+		height: 12px;
+		width: 20px;
+		margin: 0 5px;
+	}
+	.wowfadeInLeft {
+		text-align: left;
+	}
+	.unit-lefts {
+		text-align: left;
+	}
+	.unit-bodys {
+		text-align: left;
+	}
+	.sidebarrs {
+		font-size: 30px;
+		padding: 30px;
+	}
+	.sidebars {
+		font-size: 30px;
+		padding: 30px;
+	}
+	.top {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+	.slideshow-container {
+		max-width: 500px;
+	}
+	.text {
+		font-size: 12px;
+		padding: 6px 10px;
+		bottom: 10px;
+	}
+	.numbertext {
+		font-size: 10px;
+		padding: 4px 8px;
+	}
+	.dot {
+		height: 8px;
+		width: 12px;
+		margin: 0 3px;
+	}
+	.wowfadeInLeft {
+		text-align: center;
+	}
+	.unit-lefts {
+		text-align: right;
+	}
+	.unit-bodys {
+		text-align: right;
+	}
+	.sidebarrs {
+		font-size: 20px;
+		padding: 15px;
+	}
+	.sidebars {
+		font-size: 20px;
+		padding: 15px;
+	}
+	.top {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+* { box-sizing: border-box; }
+
+html { overflow-x: hidden; }
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 25px 0;
+
+  background-color: #e74c3c;
+  color: white;
+
+  font-family: Gelasio;
+  font-size: 18px;
+}
+
+.bar_content {
+  display: block; /* Important to give the content a width */
+
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+  
+  /* Set a percentage width */
+  width: 50%;
+}
+
+/* Create the animation */
+@keyframes move {
+  to { transform: translateX(-100%); }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	.rcorners2 {
+	  max-width: 100%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+	  -ms-flex: 100%;
+	  flex: 100%;
+	  max-width: 100%;
+	}
+}
+
+/* Adjust font size on larger screens */
+@media screen and (min-width: 1200px) {
+	.bar {
+		font-size: 24px;
+	}
+}
+
+/*box model*/
+.rcorners2 {
+	border-radius: 25px;
+	border: 8px solid darkorange;
+	padding: 20px 10px 5px 25px; 
+	width: 100%;
+	height: 300px;  
+	margin: 30px auto;
+	max-width: 1200px;
+}
+
+.rcorners2 :first-child {
+	align-self: center;
+}
+
+
+
+
+
+
+
+
+/* Base styles for all screen sizes */
+footer {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-content p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.left, .center, .right {
+  width: 30%;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right a {
+  display: block;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.right a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Font styles for specific elements */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1200px) {
+  .footer-content {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .left, .center, .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left, .center, .right {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
