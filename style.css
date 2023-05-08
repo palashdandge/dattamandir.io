@@ -1,5 +1,4 @@
-@media only screen and (max-width: 600px) {
-	
+
 
 
 /*# sourceMappingURL=style.css.map */
@@ -50,6 +49,13 @@
 }
 
 
+@media (min-width: 992px) {
+	.box-homepage-welcome {
+		padding-right: 1
+		0px;
+		padding-left: 55px;
+	}
+}
 
 
 
@@ -157,7 +163,58 @@ ul li a:hover{
 }
 
 
+/*make reposive*/
 
+@media screen and(max-width:1100px){
+	.logo{
+		display: none;
+	}
+	ul{
+		margin-right: auto;
+	}
+	nav{
+		padding: 0 4%;
+	}
+}
+@media screen and(max-width: 800px){
+	nav > span{
+     	display: block;
+     	position: absolute;
+     	line-height: 80px;
+     	left: 40px;
+     	font-size: 30px;
+     	color: white;
+     	text-align: center;
+     	cursor: pointer;
+     	transition: .5s;
+	}
+	nav > span:hover{
+		color: crimson;
+	}
+	/* nav>span:nth-child(3){
+		opacity:0;
+		visibility: hidden;
+	} */
+	/*this is code for left side dashboar*/
+	 /* ul{
+		position: absolute;
+		top: 80px;
+		left: 0;
+		display:block;
+		width: 100%;
+		background-color: gray;
+		z-index: -1;
+		transition: .5s;
+	} */
+	/* this is for center dashboard
+	 ul li a{
+		width: 100%;
+		text-align: center;
+		display: block;
+		font-size: 25px;
+		line-height: 80px;
+	}  */
+}
 
 /*  for image slide show */
 /* Slideshow container */
@@ -215,7 +272,10 @@ ul li a:hover{
 	to {opacity: 1}
   }
   
-
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 100px) {
+	.text {font-size: 11px}
+  }
 
   .wowfadeInLeft{
 	text-align: center;
@@ -288,7 +348,23 @@ html { overflow-x: hidden; }
   to { transform: translateX(-100%); }
 }
 
-
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+	. {
+	  -ms-flex: 50%;
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  -ms-flex: 100%;
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
 
 
 /*box model*/
@@ -401,11 +477,3 @@ html { overflow-x: hidden; }
   
 
   /* FOOTER END */
-	
-}	
-
-
-
-
-
-
