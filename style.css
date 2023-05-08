@@ -54,6 +54,7 @@
 		padding-right: 1
 		0px;
 		padding-left: 55px;
+		width: 100%;
 	}
 }
 
@@ -175,6 +176,7 @@ ul li a:hover{
 	nav{
 		padding: 0 4%;
 	}
+	width: 100%;
 }
 @media screen and(max-width: 800px){
 	nav > span{
@@ -187,9 +189,11 @@ ul li a:hover{
      	text-align: center;
      	cursor: pointer;
      	transition: .5s;
+		width: 100%;
 	}
 	nav > span:hover{
 		color: crimson;
+		width: 100%;
 	}
 	/* nav>span:nth-child(3){
 		opacity:0;
@@ -214,6 +218,7 @@ ul li a:hover{
 		font-size: 25px;
 		line-height: 80px;
 	}  */
+	width: 100%;
 }
 
 /*  for image slide show */
@@ -275,6 +280,7 @@ ul li a:hover{
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 100px) {
 	.text {font-size: 11px}
+	  width: 100%;
   }
 
   .wowfadeInLeft{
@@ -354,6 +360,7 @@ html { overflow-x: hidden; }
 	  -ms-flex: 50%;
 	  flex: 50%;
 	  max-width: 50%;
+		width: 100%;
 	}
   }
   
@@ -363,6 +370,7 @@ html { overflow-x: hidden; }
 	  -ms-flex: 100%;
 	  flex: 100%;
 	  max-width: 100%;
+		width: 100%;
 	}
   }
 
@@ -473,6 +481,7 @@ html { overflow-x: hidden; }
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	width: 100%;
   }
   
 
