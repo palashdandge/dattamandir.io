@@ -56,6 +56,9 @@
 	font-family: sans-serif;
 	box-shadow: aqua;
 	text-align: center;
+	
+	/* 	yaha */
+	display: contents;
 }
 
 nav {
@@ -78,15 +81,21 @@ nav {
 }
 
 .center {
+	
 	display: block;
 	font-size: 30px;
 	color: white;
 	user-select: none;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	/* 	yaha */
+	margin: auto;     
+
 }
 
 ul {
-	display: none;
+	/* 	yaha */
+	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
